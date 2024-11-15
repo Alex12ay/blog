@@ -1,0 +1,171 @@
+body{
+    background-color: rgba(128, 128, 128, 0.089);
+}
+
+.card{
+    margin-bottom: 5%;
+    width: 18rem;
+    box-shadow: 10px 10px 5px rgb(92, 84, 84);
+}
+.title_card{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 10%;
+}
+.texteArticle{
+    margin-top: 5%;
+}
+.categorie_card{
+    display: flex;
+    justify-content: flex-end;
+    
+    margin-top: 10%;
+    color: rgb(111, 111, 255);
+
+}
+.sous_classe{
+    font-size: 1.5em;
+    margin-top: 5%;
+
+}
+.commentaire{
+    border: 2px rgb(82, 80, 80) solid;
+    box-shadow: 10px 10px 5px rgb(161, 158, 158);
+    border-radius: 20px;
+    margin: 5% 0%;
+    padding: 3% 2% 0% 2%;
+}
+
+.author{
+    font-size:15px;
+    margin: 0;
+    color: rgb(111, 111, 255);
+}
+#btnEnvoyer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#formCom{
+    border-radius: 10px;
+}
+
+textarea{
+    border-radius: 10px ;
+    margin-bottom: 5%;
+    font-size: 15px;
+}
+#detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+#detailDate{
+    width: 45%;
+}
+#detailUser{
+    width: 45%;
+    text-align: end;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+input{
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+form input{
+    height: 3em;
+}
+.nomForm{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.nomForm input{
+    border-radius: 10px;
+    width: 45%;
+    margin: 2% 0%;
+}
+.inputForm{
+    width: 100%;
+    border-radius: 2%;
+    margin: 2% 0%;
+}
+
+.btn_inscription{
+    display: flex;
+   justify-content: center;
+    margin-top: 10%;
+}
+
+#menu{
+    background-color: rgba(128, 128, 128, 0.582);
+}
+
+.dateCard{
+    font-size:12px;
+    margin: 2% 0%;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0;
+}
+.nameCat{
+    text-transform: uppercase;
+}
+#comDate{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    
+}
+
+.author{
+    color: blue;
+}
+#authorCom{
+    color: blue;
+    font-size: 17px;
+}
+
+#formUser{ 
+max-width:30em ;
+}
+
+.contImage{
+    display: flex;
+    justify-content: center;
+}
+
+.formArticle{
+    max-width:30em ;
+    margin-top: 2%;
+}
+
+.btnLog{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.164);
+}
+
+.modTitreForm{
+    display: none;
+}
+
+.modTitreA{
+    display: block;
+}
